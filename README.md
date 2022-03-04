@@ -1,6 +1,8 @@
-# Git简介
+# Git教程
 
-## 安装Git
+## Git简介
+
+### 安装Git
 
 查看系统有没有安装Git：git
 
@@ -11,7 +13,7 @@ git config --global user.name "chiyisan"
 git config --global user.email "chiyisan@gmail.com"
 ```
 
-## 创建版本库
+### 创建版本库
 
 初始化一个Git仓库：git init
 
@@ -31,13 +33,13 @@ git add file2.txt file3.txt
 git commit -m "add 3 files."
 ```
 
-# 时光机穿梭
+## 时光机穿梭
 
 查看工作区状态：git status
 
 查看修改内容：git diff readme.txt
 
-## 版本回退
+### 版本回退
 
 查看提交历史：git log
 
@@ -49,11 +51,11 @@ git commit -m "add 3 files."
 
 查看命令历史：git reflog
 
-## 管理修改
+### 管理修改
 
 查看工作区和版本库里面最新版本的区别：git diff HEAD -- readme.txt
 
-## 撤销修改
+### 撤销修改
 
 丢弃工作区的修改：
 
@@ -75,7 +77,7 @@ git restore --staged readme.txt
 git reset HEAD readme.txt
 ```
 
-## 删除文件
+### 删除文件
 
 ```text
 git commit -m "add test.txt"
@@ -90,7 +92,7 @@ git restore test.txt
 git checkout -- test.txt
 ```
 
-# 远程仓库
+## 远程仓库
 
 创建SSH Key：
 
@@ -99,7 +101,7 @@ ssh-keygen -t rsa -C "chiyisan@gmail.com"
 cat ~/.ssh/id_rsa.pub
 ```
 
-## 添加远程仓库
+### 添加远程仓库
 
 关联一个远程库：git remote add origin git@github.com:linshanzeng/hello-git.git
 
@@ -114,10 +116,10 @@ cat ~/.ssh/id_rsa.pub
 删除本地和远程的绑定管理：git remote rm origin
 ```
 
-# 关联链接
+## 关联链接
 
 [hello-git2](https://github.com/linshanzeng/hello-git2)
 
-# 参考链接
+## 参考链接
 
 [Git教程](https://www.liaoxuefeng.com/wiki/896043488029600/896067074338496)
