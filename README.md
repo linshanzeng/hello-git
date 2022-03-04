@@ -114,7 +114,7 @@ cat ~/.ssh/id_rsa.pub
 删除本地和远程的绑定管理：git remote rm origin
 ```
 
-# 关联项目
+# 关联链接
 
 [hello-git2](https://github.com/linshanzeng/hello-git2)
 
